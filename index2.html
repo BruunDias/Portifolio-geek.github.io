@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfolio Pessoal</title>
+    <link rel="stylesheet" href="../static/css/stylee.css">
+</head>
+<body>
+    <header>
+    <div class="banner">
+        <img src="../static/img/celeste-banner.jpg" alt="Banner do meu portfólio">
+    </div>
+    <h1>Olá, eu sou Alexsander!</h1>
+    <p>Bem-vindo ao meu portfólio. Aqui você encontrará um pouco sobre mim e o que eu gosto de fazer.</p>
+</header>
+
+
+    <main>
+        <h2>Sobre Mim</h2>
+        <p>Sou estudante de Front-End e eu sou bastante nerd </p>
+
+        <h2>Meu Clipe Favorito</h2>
+            
+<div class="video-container">
+    <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/GGmQOKd3qzA" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+</div>
+<p>Adoro o alanzoka</p>
+
+        <h2>Meus Hobbies</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hobby</th>
+                    <th>Tempo de Prática</th>
+                    <th>Por que Gosto?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jogar</td>
+                    <td>Desde a infância</td>
+                    <td>Sempre algo magico</td>
+                </tr>
+                <tr>
+                    <td>Programação</td>
+                    <td>2 meses</td>
+                    <td>Um sonho talvez</td>
+                </tr>
+                <tr>
+                    <td>Geek</td>
+                    <td>a vida toda</td>
+                    <td>Sou nerd </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Fale Comigo</h2>
+        <form action="/enviar-contato" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required placeholder="Digite seu nome completo">
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required placeholder="seunome@email.com">
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Escreva sua mensagem aqui..."></textarea>
+
+            <fieldset>
+                <legend>O que você achou do site?</legend>
+                <input type="radio" id="gostei" name="feedback" value="gostei" required>
+                <label for="gostei">Gostei</label>
+                <input type="radio" id="naoGostei" name="feedback" value="nao-gostei">
+                <label for="naoGostei">Não Gostei</label>
+            </fieldset>
+
+            <label>
+                <input type="checkbox" name="termos" required> Eu concordo com os termos de uso (obrigatório).
+            </label>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Alexsander</p>
+    </footer>
+</body>
+</html>

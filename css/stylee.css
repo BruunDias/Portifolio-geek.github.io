@@ -1,0 +1,131 @@
+p{
+    color:aliceblue
+}
+body, h2 {
+    color: crimson;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+table{
+    color: #1a1a2e;
+}
+h1 {
+    color:rgb(224, 5, 5)
+}
+/* Fundo e layout */
+body {
+    background-color: #0000f8;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+main {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #333333;
+    color: white;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+input, textarea, button {
+    padding: 10px;
+    border: 1px solid #666;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #666;
+}
+/* Centralizar e deixar o vídeo responsivo */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* proporção 16:9 */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000; /* fundo preto enquanto carrega */
+    margin: 20px 0;
+    border-radius: 10px; /* cantos arredondados */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); /* sombra */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Banner */
+.banner {
+    width: 100%;
+    max-height: 250px; /* altura máxima do banner */
+    overflow: hidden; /* corta se a imagem for muito alta */
+    margin-bottom: 20px;
+    border-radius: 10px; /* opcional: arredondar bordas */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); /* sombra */
+}
+
+.banner img {
+    width: 100%;
+    height: auto; /* mantém proporção da imagem */
+    display: block;
+}
+body {
+    background-color: #1a1a2e; /* cor das laterais */
+}
+
+main {
+    background-color: #6262fa; /* cor da área principal */
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
