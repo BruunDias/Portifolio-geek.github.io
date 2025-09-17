@@ -80,17 +80,17 @@ footer {
     font-size: 14px;
     color: #666;
 }
-/* Centralizar e deixar o vídeo responsivo */
+/* centralizar e deixar o vídeo responsivo */
 .video-container {
     position: relative;
-    padding-bottom: 56.25%; /* proporção 16:9 */
+    padding-bottom: 56.25%; 
     height: 0;
     overflow: hidden;
     max-width: 100%;
-    background: #000; /* fundo preto enquanto carrega */
+    background: #000;
     margin: 20px 0;
-    border-radius: 10px; /* cantos arredondados */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); /* sombra */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); 
 }
 
 .video-container iframe {
@@ -109,7 +109,7 @@ footer {
     max-height: 250px; /* altura máxima do banner */
     overflow: hidden; /* corta se a imagem for muito alta */
     margin-bottom: 20px;
-    border-radius: 10px; /* opcional: arredondar bordas */
+    border-radius: 10px; 
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); /* sombra */
 }
 
@@ -129,3 +129,4 @@ main {
     padding: 20px;
     border-radius: 10px;
 }
+
